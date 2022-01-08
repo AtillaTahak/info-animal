@@ -30,8 +30,8 @@ function Home(props) {
 
         </Elements>
         <Elements>
-          <span>Earth Quake Minumum Magnitute</span>
-          <input type="text" value={content.magInput} onChange={(e) => content.setMagInput(e.target.value)} placeholder="Minumum Magnitute" />
+          <span>Earth Quake Minimum Magnitude</span>
+          <input type="text" value={content.magInput} onChange={(e) => content.setMagInput(e.target.value)} placeholder="Minimum Magnitude" />
           <Link to="/earthquake" handler={content}>
             <input className="search" type="submit" value="Search Earth Quake in World" />
           </Link>

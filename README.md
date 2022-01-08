@@ -1,6 +1,11 @@
-# Space Travellers
+# Track EarthQuake
 
-> This is a React and Redux based single page application about EartQuake.  
+> This is a React and Redux based single page application about EarthQuake.  
+# How To Use It
+> This project purpose track earth quake on world
+> In order to use this project, you must write the date you want to watch, you must write the start date and the end date on the end date.
+
+> You should write the magnitude of the earthquakes and how many magnitudes you want to watch and see. You should click the more button to see it on the map and see its details. 
 
 # Demo Link
 [Click here](https://epic-benz-1e003c.netlify.app)
@@ -10,7 +15,7 @@
 
 # Screenshot
 
-![Image of the desktop view](img/screenshot.png)
+![Image of the desktop view](screenshot.png)
 
 # Getting Started
 
