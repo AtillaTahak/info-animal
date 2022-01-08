@@ -15,21 +15,25 @@ function Earthquake(props) {
     dispatch(earthquakeAction(content));
   }, []);
   return (
-    <div>
+    <div className="ListContainer">
       <div className="home-go-back">
         <Link to="/">
-          <BsBackspace>
+          <BsBackspace color="black">
             <Home />
           </BsBackspace>
         </Link>
       </div>
-      <ul>
-        {reducersEarth.data.features && reducersEarth.data.features.map((e) => (
-          <li key={e.id}>
-            <EarthquakeSl data={e} />
-          </li>
-        ))}
-      </ul>
+      <div>
+        <ul>
+          {reducersEarth.data.features && reducersEarth.data.features.map((e) => (
+            <li key={e.id}>
+              <EarthquakeSl data={e} />
+            </li>
+          ))}
+        </ul>
+
+      </div>
+
     </div>
   );
 }
