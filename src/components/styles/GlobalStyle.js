@@ -2,12 +2,13 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStye = createGlobalStyle`
 *, *::before, *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: large;
-  font-weight: bold;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: large;
+    font-weight: bold;
+  }
+  
 body{
   font-family: var(--bs-body-font-family);
     font-size: var(--bs-body-font-size);

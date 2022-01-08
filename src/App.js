@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Earthquake from './components/Earthquake';
 import EarthquakeDetails from './components/EarthquakeDetails';
 import Home from './components/Home';
+import './App.css';
 
 function App() {
   const [magInput, setMagInput] = useState('');
