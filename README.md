@@ -3,7 +3,7 @@
 > This is a React and Redux based single page application about EartQuake.  
 
 # Demo Link
-[Click here]()
+[Click here](https://epic-benz-1e003c.netlify.app)
 # Loom Video
 [Click here](https://www.loom.com/share/7989bc3a0ddb4740b5f0f01e8c072c7a)
 
